@@ -1,0 +1,15 @@
+function isAccaptedUsername(username) {
+    var regex = ^[2][a-z][2 a-z][2,6][2]$[2];
+    return Regex. test (username) ;
+}
+if (isAccaptedUsername) ("2abcd2"))
+{alert ("username is Valid") ;
+} else { alert ("Username Is Invalid");}
+
+function isAccaptedPassword(password) {
+    var regex = ^[a-z][0-9] [_] [a-z _ 0-9][7-11]$;
+    return Regex. test (password) ;
+
+    if (isAccaptedPassword) ("abcd_1234"))
+{alert ("password is Valid") ;
+} else { alert ("Username Is Invalid");}
